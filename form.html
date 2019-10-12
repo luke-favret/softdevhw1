@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>About Me</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+        
+    <div style="margin-left: 1%">
+        <form>
+            <div class="form-row">
+            <h1>Add a New Article</h1>
+            </div>
+            <div class="form-row">
+                <div class="col-sm-5">
+                <h3>Article Title</h3>
+                 <input type="text" class="form-control" placeholder="Article">
+                </div>
+            </div>
+            <div class="form-row">
+                    <div class="col-sm-5">
+                     <h3>Author Name</h3>
+                     <input type="text" class="form-control" placeholder="Name">
+                    </div>
+            </div>
+            <div class="form-row">
+                    <div class="col-sm-2">
+                     <h3>Upload File: </h3>
+                     <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg">
+                    </div>
+
+                    <div class="col-sm-2">
+                            <h3>Pages</h3>
+                            <select class="custom-select">
+                                    <option selected value="1">Academics</option>
+                                    <option value="2">Projects</option>
+                                    <option value="3">Clubs</option>
+                            </select>
+                    </div>
+            </div>
+            <div class="form-row">
+                    <div class="col-sm-5">
+                        <h3>Article Text</h3>
+                        <textarea rows="15"  class="form-control">Insert article text here
+                        </textarea>
+                    </div>
+            </div>
+            <div class="form-row">
+                <div class="col-sm-3">
+                    <h3>Select Tags</h3>
+                        <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                <label class="form-check-label" for="inlineCheckbox1">Python</label>
+                              </div>
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                <label class="form-check-label" for="inlineCheckbox2">C++</label>
+                              </div>
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                                <label class="form-check-label" for="inlineCheckbox3">Java</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option4">
+                                    <label class="form-check-label" for="inlineCheckbox2">Scala</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option5">
+                                    <label class="form-check-label" for="inlineCheckbox3">Perl</label>
+                                </div>
+                </div>
+                <div class="col-sm-3">
+                    <h3>Visibility</h3>
+                    <div class="custom-control custom-radio custom-control-inline">
+                            <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                            <label class="custom-control-label" for="customRadioInline1">Public</label>
+                          </div>
+                          <div class="custom-control custom-radio custom-control-inline">
+                            <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+                            <label class="custom-control-label" for="customRadioInline2">Private</label>
+                          </div>
+                </div>
+            </div>
+            <div class="form-row">
+                    <h3>Login to Finish Submitting</h3>
+            </div>
+            <div class="form-row">
+                <div class="col-sm-3">
+                    
+                        <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Username">
+                </div>
+                <div class="col-sm-2">
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                </div>
+            </div>
+            <div class="form-row">
+                    <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="remember">
+                            <label class="form-check-label" for="inlineCheckbox3">Remember Me</label>
+                        </div>
+                    </div>
+            <div class="form-row">
+                    <div class="col-auto my-1">
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+            </div>
+            
+        </form>
+    </div>
+      </body>
+    </html>
+    

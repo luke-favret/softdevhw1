@@ -50,11 +50,13 @@
         </tr>
     </table>
 
-    <div class="container">
+    
         <div class="row" id = "myLists">
-            <div class="card">
-                <h3>Countries Travelled</h3>
-                <div class="list-group col-  multiCollapse">
+            <div class="countryGroup col-auto col-md-offset-3">
+                    <div class="alert alert-info" role="alert">
+                <h4>Countries Travelled</h4>
+                    </div>
+                <div class="list-group   multiCollapse">
                     <ul class="list-group-item">Ireland</ul>
                     <ul class="list-group-item">Mexico</ul>
                     <ul class="list-group-item">Costa Rica</ul>
@@ -62,14 +64,18 @@
                 </div>
             </div>
             <br>
-            <div class="list-group col col-md-offset-3 multiCollapse">
-                <h3>My Interests</h3>
+            <div class="InterestGroup  col-md-offset-3">
+            <div class="alert alert-info" role="alert">
+            <h4>My Interests</h4>
+            </div>
+            <div class="list-group  multiCollapse">
                 <ol class="list-group-item">Psychology</ol>
                 <ol class="list-group-item">Music</ol>
                 <ol class="list-group-item">Video Games</ol>
             </div>
         </div>
-        <button type="button" class="btn btn-info" data-toggle="collapse" data-target=".multiCollapse">Simple collapsible</button>    
-    </div>
+        </div>
+        <button type="button" class="btn btn-info" data-toggle="collapse" data-target=".multiCollapse" aria-expanded="false">Simple collapsible</button>    
+    
     </body>
 </html>

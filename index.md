@@ -1,3 +1,7 @@
-## Welcome to GitHub Pages
+## Homework 1 Links
 
-You can use the [editor on GitHub](https://github.com/luke-favret/softdevhw1/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+[Mypage](https://luke-favret.github.io/softdevhw1/mypage.html)
+
+[Mypage Bootstrap](https://luke-favret.github.io/softdevhw1/mypage_bootstrap.html)
+
+[Form](https://luke-favret.github.io/softdevhw1/form.html)

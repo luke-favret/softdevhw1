@@ -1,4 +1,5 @@
-## Homework 1 Links
+## Homework Links
+[Tic Tac Toe](https://luke-favret.github.io/softdevhw1/tic-tac-toe/tic-tac-toe.html)
 
 [Mypage](https://luke-favret.github.io/softdevhw1/mypage.html)
 
